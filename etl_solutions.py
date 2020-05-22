@@ -22,7 +22,9 @@ solution_start_idx = 0
 while solution_start_idx < (len(lines) - 1):
     solution_end_idx = solution_start_idx + 1
     solution_symbols = symbols(lines[solution_start_idx])
-    while solution_end_idx < len(lines) and symbols(lines[solution_end_idx]) == solution_symbols:
+    while solution_end_idx < len(lines) \
+        and symbols(lines[solution_end_idx]) == solution_symbols \
+        and len(lines[solution_start_idx].split()) == len(lines[solution_end_idx].split()):
         solution_end_idx += 1
     if (solution_end_idx - solution_start_idx) > 1 and len(solution_symbols) > 0:
         solution = lines[solution_start_idx:solution_end_idx]
