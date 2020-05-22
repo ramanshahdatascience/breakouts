@@ -19,8 +19,8 @@ ranges of individuals:
 want to organize breakout or mixer sessions in your event so attendees get to
 meet each other in a more intimate setting. You want to avoid any. Say you want
 to put them in groups of 3-4 (you'd need 16 or 20 to have everyone in groups of
-exactly 4, so a couple groups will need to be short a person). Say you have the
-time for 3 breakout sessions.
+exactly 4, so one groups will need to be short a person). Say you have the time
+for 3 breakout sessions.
 
 Clone this repo. The first time, you'll need to give permission to execute the
 `make_schedule.py` script:
