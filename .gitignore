@@ -1,0 +1,8 @@
+.*.sw*
+venv/
+
+# Any working data but the example
+*.csv
+!example.csv
+*.pdf
+!example.pdf
