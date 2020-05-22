@@ -17,8 +17,9 @@ ranges of individuals:
 
 `example.csv` contains a list of 19 (fake) attendees to your event. Say you
 want to organize breakout or mixer sessions in your event so attendees get to
-meet each other in a more intimate setting. You want to avoid any. Say you want
-to put them in groups of 3-4 (you'd need 16 or 20 to have everyone in groups of
+meet each other in a more intimate setting. You want to avoid any duplicates
+where someone sees another person in more than one breakout. Say you want to
+put them in groups of 3-4 (you'd need 16 or 20 to have everyone in groups of
 exactly 4, so one groups will need to be short a person). Say you have the time
 for 3 breakout sessions.
 
