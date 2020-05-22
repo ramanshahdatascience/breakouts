@@ -1,0 +1,8 @@
+ABC DEF GHI ahf dbi gec
+Abc Def Ghi aHF dBI gEC
+abC deF ghI AHf DBi GEc
+aBc dEf gHi AhF DbI GeC
+ADG BEH CFI aei bfg cdh
+Adg Beh Cfi aEI bFG cDH
+adG beH cfI AEi BFg CDh
+aDg bEh cFi AeI BfG CdH
