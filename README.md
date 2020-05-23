@@ -7,9 +7,9 @@ breakout sessions on Zoom networking events).
 At the time of writing, the tabulated SGP solutions support the following
 ranges of individuals:
 
-- 5-16 people in groups of 1-2
-- 7-27 people in groups of 2-3
-- 9-32 people in groups of 3-4
+- 5-16 people in groups of 2 (some groups of 1 as needed)
+- 7-27 people in groups of 3 (some groups of 2 as needed)
+- 9-32 people in groups of 4 (some groups of 3 as needed)
 
 ## Quickstart
 
@@ -18,9 +18,9 @@ ranges of individuals:
 `example.csv` contains a list of 19 (fake) attendees to your event. Say you
 want to organize breakout or mixer sessions in your event so attendees get to
 meet each other in a more intimate setting. You want to avoid any duplicates
-where someone sees another person in more than one breakout. Say you want to
-put them in groups of 3-4 (you'd need 16 or 20 to have everyone in groups of
-exactly 4, so one groups will need to be short a person). Say you have the time
+where any two people meet in more than one breakout. Say you want to
+put them in groups of 4 (you'd need 16 or 20 to have everyone in groups of
+exactly 4, so one group will need to be short a person). Say you have the time
 for 3 breakout sessions.
 
 Clone this repo. The first time, you'll need to give permission to execute the
@@ -32,4 +32,5 @@ Run the tool like this:
 
 ```./make_schedule.py example.csv 4 3 | pandoc -o example.pdf```
 
-Now you can view `example.pdf` with a system viewer, print it out, etc.
+Now you can view `example.pdf` with a system viewer or print it out to run your
+event.
